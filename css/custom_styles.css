@@ -1,0 +1,95 @@
+/* Base Styles */
+/***** COLORS *****/
+/* #1CBDCD; /* tiffany blue */
+/* #6C6D70; /* medium gray */
+/* #FFFFFF; /* white */
+body, h1, h2, h3, h4, a, p {
+ font-family: 'Lato', sans-serif;
+ font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+ text-transform: uppercase;
+}
+
+
+/*** Header and Navigation ***/
+.header {
+ background: #1CBDCD; /* tiffany blue */
+ background-image: url("../img/diet-banner-bg.png");
+ background-size: cover;
+ position: relative;
+ overflow: visible;
+ padding-top: 2.5rem;
+ padding-bottom: 4.9rem;
+}
+
+.header .headline {
+ text-align: right;
+ color: #fff;
+ text-transform: uppercase;
+}
+
+.header .headline:nth-of-type(1) {
+ line-height: 40px;
+ margin-top: 20px;
+}
+
+.header-subnav {
+ float: none;
+ position: absolute;
+ text-align: center;
+ margin: 0 auto;
+ bottom: 0;
+ width: 100%; 
+}
+
+.header-subnav li {
+ float: none;
+ display: inline-block;
+}
+
+.header-subnav li a {
+ padding: 0.9rem 1rem;
+ font-size: 0.75rem;
+ color: #fff;
+ text-transform: uppercase;
+ display: block;
+ letter-spacing: 1px;
+ transition: all 0.35s ease-in-out;
+}
+
+.header-subnav li a.is-active {
+ background: rgba(250, 250, 250, 0.15);
+}
+
+.header-subnav li a:hover {
+ background: rgba(250, 250, 250, 0.15);
+ transition: all 0.35s ease-in-out;
+}
+
+/*** Main Container ***/
+.main-container {
+ padding: 3rem;
+}
+
+.row-header {
+ text-align: center;
+ color: #1CBDCD; /* tiffany blue */
+}
+
+.main-container i {
+ padding: 0 0.5rem;
+}
+
+/*** Footer ***/
+footer {
+ background: #1CBDCD; /* tiffany blue */
+ color: #fff;
+ text-align: center;
+ padding: 2rem 0 2rem 0;
+}
+
+footer p {
+ margin: 0;
+}
