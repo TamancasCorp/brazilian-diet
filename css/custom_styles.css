@@ -89,7 +89,12 @@ h1, h2, h3, h4 {
 /*** Steps ***/
 .step-number {
  color: #BBBDC0; /* light gray */
- font-size: 8rem; 
+ font-size: 8rem;
+ text-align: right;
+}
+
+.step-description {
+ padding: 2rem;
 }
 
 .step-description h3 {
