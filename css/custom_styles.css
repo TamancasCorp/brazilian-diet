@@ -79,6 +79,10 @@ h1, h2, h3, h4 {
  padding: 0 0.5rem;
 }
 
+.main-container h3 {
+ color: #1CBDCD; /* tiffany blue */
+}
+
 /*** About ***/
 .row-header {
  text-align: center;
@@ -95,10 +99,6 @@ h1, h2, h3, h4 {
 
 .step-description {
  padding: 2rem;
-}
-
-.step-description h3 {
- color: #1CBDCD; /* tiffany blue */
 }
 
 /*** Footer ***/
